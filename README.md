@@ -1,6 +1,6 @@
 # Anim Nav Bar 
 
-#### Default
+### Preview
 <img src ="https://i.ibb.co/NFdNHwB/Screen-Recording-2021-01-25-at-11-31-35-AM.gif">
 
 ### Code
