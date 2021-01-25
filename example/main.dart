@@ -17,7 +17,6 @@ class AnimatedNavExample extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: AnimNavBar(
-          ///required field
           /// should be in same order as your icons
           globalKey: [
             arrowForwardIos,
@@ -25,14 +24,8 @@ class AnimatedNavExample extends StatelessWidget {
             arrowBackOutline,
             arrowForwardOutline
           ],
-
-          ///required field
           context: context,
-
-          ///required field
           height: 50,
-
-          ///required field
           /// should be in same order as your global key
           icons: [
             Icons.arrow_forward_ios,
@@ -40,29 +33,9 @@ class AnimatedNavExample extends StatelessWidget {
             Icons.arrow_back_ios_outlined,
             Icons.arrow_forward_ios_outlined,
           ],
-
-          ///required fields
           onChanged: (int) {
             print(int);
           },
-
-          ///optional field
-          selectedIconColor: Colors.white,
-
-          ///optional field
-          unselectedIconColor: Colors.white.withOpacity(0.3),
-
-          ///optional field
-          highLightColor: Colors.white,
-
-          ///optional field
-          backgroundColor: Color(0xff2c362f),
-
-          ///optional field
-          embossed: false,
-
-          ///optional field
-          duration: Duration(milliseconds: 300),
         ),
       ),
     );
