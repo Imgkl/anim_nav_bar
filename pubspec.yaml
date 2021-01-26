@@ -1,6 +1,6 @@
 name: anim_nav_bar
 description: A Flutter package which give a animated nav bar with lots of customisation options.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Imgkl/anim_nav_bar
 
 environment:
